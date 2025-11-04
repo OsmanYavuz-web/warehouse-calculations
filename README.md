@@ -5,6 +5,8 @@
 
 Modern ve kullanıcı dostu bir web tabanlı depo stok takip ve sayım raporu oluşturma uygulaması.
 
+![Uygulama Ekran Görüntüsü](ss.png)
+
 ## 🏛️ Proje Hakkında
 
 Bu uygulama, **Jandarma ve Sahil Güvenlik Akademisi (JSGA) Başkanlığı Sosyal Tesisler Müdürlüğü Lokanta Kısım Amirliği**'nin muhasebe ve depo sayım işlemlerini kolaylaştırmak amacıyla geliştirilmiştir.
