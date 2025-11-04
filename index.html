@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depo Stok Takip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Depo Stok Takip Sistemi</h1>
+
+        <div class="header-container">
+            <div class="date-section" id="dateDisplay"></div>
+            <div class="header-actions">
+                <div class="excel-upload-section">
+                    <input type="file" id="excelFileInput" accept=".xls,.xlsx">
+                    <button onclick="handleExcelUpload()">Excel Yükle</button>
+                    <button id="exportExcelButton">Raporu Dışa Aktar</button>
+                    <button id="resetButton" class="reset-button">Sıfırla</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-wrapper">
+            <table id="inventoryTable">
+                <thead>
+                    <tr>
+                        <th>İçecek</th>
+                        <th>Bugünkü Depo Sayımı</th>
+                        <th>Dünkü Artı</th>
+                        <th>Sistemdeki Stok</th>
+                        <th>Fark</th>
+                        <th>Bas/Basma</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="footer-content">
+                    <p>&copy; 2025 Depo Stok Takip Sistemi. (Osman Yavuz - 0541 737 35 32)</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="assets/xlsx.full.min.js"></script>
+    <script src="assets/FileSaver.min.js"></script>
+    <script src="assets/exceljs.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
